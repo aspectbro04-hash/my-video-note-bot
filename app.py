@@ -5,8 +5,8 @@ import os
 import subprocess
 import uuid
 
-TOKEN = os.environ.get("BOT_TOKEN")
-ADMIN_ID = int(os.environ.get("ADMIN_ID", "123456789"))
+TOKEN = os.environ.get("8653825202:AAHnodl-HDT9R8R4jSd4AtbSU3xnVx8IzR0")
+ADMIN_ID = int(os.environ.get("ADMIN_ID", "8049958379"))
 
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
